@@ -1,0 +1,49 @@
+body {
+ background-color: rgb(240, 240, 240);
+ font-family: Open-sans, sans-serif;
+}
+
+#title {
+ margin-top: 40px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+#img-div {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+#image {
+ padding: 20px 0px 10px 0px;
+ max-width: 80%;
+ height: auto;
+ margin: auto;
+}
+
+#img-caption {
+ font-style: italic;
+}
+
+#tribute-info {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin: 1vw 20vw 1vw 20vw;
+ padding: 5vw 5vw 5vw 5vw;
+ background-color: rgb(220, 220, 220);
+}
+
+a:hover {
+ color: red;
+}
+
+footer {
+	font-style: italic;
+	font-size: 0.7em;
+	text-align: center;
+}
+
+
